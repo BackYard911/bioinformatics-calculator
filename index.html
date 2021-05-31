@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        span{
+            width: 30px;
+            height: 30px;
+            display: block;
+            text-align: center;
+            border: 1px solid lightgreen;
+
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            margin-bottom:1rem;
+            padding: 0.5rem 2rem;
+            border: none;
+            background-color: lightgreen;
+            font-size:1.2rem;
+            cursor: pointer;
+            width:350px;
+        }
+        #algo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <button id = "dotMatrix">Dot Matrix</button>
+    <button id="needle">Needlman</button>
+    <button id = "smith">Smith and Waterman</button>
+
+    <div id="algo"></div>
+
+
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
